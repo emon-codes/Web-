@@ -1,9 +1,39 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <div className="p-5">
+      <calendar-date class="cally bg-base-100 border border-base-300 shadow-lg rounded-box">
+        <svg
+          aria-label="Previous"
+          className="fill-current size-4"
+          slot="previous"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M15.75 19.5 8.25 12l7.5-7.5"
+          />
+        </svg>
 
-export default About
+        <svg
+          aria-label="Next"
+          className="fill-current size-4"
+          slot="next"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="m8.25 4.5 7.5 7.5-7.5 7.5"
+          />
+        </svg>
+
+        <calendar-month />
+      </calendar-date>
+    </div>
+  );
+};
+
+export default About;

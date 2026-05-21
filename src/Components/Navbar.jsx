@@ -5,7 +5,8 @@ import { NavLink } from "react-router";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const getClass = ({ isActive }) => isActive ? "cp" : "";
+  // const active = ({ isActive }) => isActive ? "cp" : "";
+  const active = ({ isActive }) => isActive ? "text-green-900 " : "";
 
   return (
     <div className="border-y border-gray-200 py-2">
@@ -19,11 +20,11 @@ const Navbar = () => {
 
         {/* Desktop Nav Links */}
         <div className="hidden md:flex gap-12">
-          <NavLink className={getClass} to="/" end>Home</NavLink>
-          <NavLink className={getClass} to="/shop">Shop now</NavLink>
-          <NavLink className={getClass} to="/contacts">Contact</NavLink>
-          <NavLink className={getClass} to="/about">About</NavLink>
-          <NavLink className={getClass} to="/blog">Blog</NavLink>
+          <NavLink className={active} to="/" end>Home</NavLink>
+          <NavLink className={active} to="/shop">Shop now</NavLink>
+          <NavLink className={active} to="/contacts">Contact</NavLink>
+          <NavLink className={active} to="/about">About</NavLink>
+          <NavLink className={active} to="/blog">Blog</NavLink>
         </div>
 
         {/* Shop Now — hidden on mobile */}
@@ -48,11 +49,11 @@ const Navbar = () => {
       {/* Mobile Dropdown */}
       {menuOpen && (
         <div className="md:hidden flex flex-col px-4 pb-3 gap-3 border-t border-gray-100 mt-2">
-          <NavLink className={getClass} to="/" end onClick={() => setMenuOpen(false)}>Home</NavLink>
-          <NavLink className={getClass} to="/shop" onClick={() => setMenuOpen(false)}>Shop now</NavLink>
-          <NavLink className={getClass} to="/contacts" onClick={() => setMenuOpen(false)}>Contact</NavLink>
-          <NavLink className={getClass} to="/about" onClick={() => setMenuOpen(false)}>About</NavLink>
-          <NavLink className={getClass} to="/blog" onClick={() => setMenuOpen(false)}>Blog</NavLink>
+          <NavLink className={active} to="/" end onClick={() => setMenuOpen(false)}>Home</NavLink>
+          <NavLink className={active} to="/shop" onClick={() => setMenuOpen(false)}>Shop now</NavLink>
+          <NavLink className={active} to="/contacts" onClick={() => setMenuOpen(false)}>Contact</NavLink>
+          <NavLink className={active} to="/about" onClick={() => setMenuOpen(false)}>About</NavLink>
+          <NavLink className={active} to="/blog" onClick={() => setMenuOpen(false)}>Blog</NavLink>
           <div className="flex items-center gap-2 text-white bgp py-2 px-4 w-fit mt-1">
             <BiCategory />
             <p>Shop Now</p>
