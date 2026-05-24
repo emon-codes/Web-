@@ -7,7 +7,7 @@ const Post = () => {
   return (
     <div>
       {post.map((posts) => (
-        <h1> {posts.id} </h1>
+        <h1> {posts.title} </h1>
       ))}
     </div>
   );
