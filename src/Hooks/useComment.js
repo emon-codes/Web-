@@ -1,16 +1,15 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from "react";
 
 const useComment = () => {
-  const [comment, setComment] = useState([])
-  useEffect(() => { 
+  const [comment, setComment] = useState([]);
+  useEffect(() => {
     fetch("comment.json")
       .then((res) => res.json())
       .then((data) => setComment(data));
-
-  }, [])
+  }, []);
   return {
-    comment
-  }
-}
+    comment,
+  };
+};
 
-export default useComment
+export default useComment;

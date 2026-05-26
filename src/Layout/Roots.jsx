@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar'
 import { Outlet } from 'react-router'
 import Products from '../Pages/Products'
 import Post from '../Components/Post'
+import Comment from '../Components/Comment'
 
 const Roots = () => {
   return (
@@ -10,7 +11,8 @@ const Roots = () => {
           <Navbar />
       <Outlet />
       <Products />
-      <Post/>
+      <Post />
+      <Comment/>
           <div>footer</div>
 
 
