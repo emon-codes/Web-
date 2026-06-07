@@ -1,15 +1,33 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
+
+// const useComment = () => {
+//   const [comment, setComment] = useState([]);
+//   useEffect(() => {
+//     fetch("comment.json")
+//       .then((res) => res.json())
+//       .then((data) => setComment(data));
+//   }, []);
+//   return {
+//     comment,
+//   };
+// };
+
+// export default useComment;
+
+
+import React, { useEffect, useState } from 'react'
 
 const useComment = () => {
-  const [comment, setComment] = useState([]);
+  const [comment, setcomment] = useState([])
   useEffect(() => {
     fetch("comment.json")
       .then((res) => res.json())
-      .then((data) => setComment(data));
-  }, []);
+    .then((data) => setcomment(data))
+    
+  },[])
   return {
-    comment,
-  };
-};
+    comment
+  }
+}
 
-export default useComment;
+export default useComment
