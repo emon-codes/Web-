@@ -5,13 +5,15 @@ import Products from '../Pages/Products'
 import Post from '../Components/Post'
 import Comment from '../Components/Comment'
 import Offer from '../Pages/Offer'
+import PopularProducts from '../Pages/Home component/PopularProducts'
 
 const Roots = () => {
   return (
       <div>
           <Navbar />
       <Outlet />
-      <Products />
+      {/* <Products /> */}
+      <PopularProducts/>
     <Offer/>
           <div>footer</div>
 

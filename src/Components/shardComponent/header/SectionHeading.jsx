@@ -1,8 +1,13 @@
 import React from 'react'
 
-const SectionHeading = () => {
+const SectionHeading = ({heading, colorHeading, discription}) => {
   return (
-    <div>SectionHeading</div>
+      <div>
+          <div>
+              <h3>{heading} {colorHeading} </h3>
+              <p>{ discription}</p>
+          </div>
+    </div>
   )
 }
 
