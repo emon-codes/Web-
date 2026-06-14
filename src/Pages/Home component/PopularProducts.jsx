@@ -1,12 +1,15 @@
 import React from 'react'
-import SectionHeading from '../../Components/shardComponent/header/SectionHeading'
+import SectionHeading from './SectionHeading'
+
 
 const PopularProducts = () => {
   return (
-      <div>
-          <div>
-              <SectionHeading heading={"popular"} colorHeading={"products"} discription={"shop online for new arrivals and get free Shiping!"} ></SectionHeading>
-          </div>
+    <div>
+  
+<SectionHeading heading={"Propular product"}  discription={"top rated product"}></SectionHeading>
+
+
+
     </div>
   )
 }
