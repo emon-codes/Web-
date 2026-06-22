@@ -1,44 +1,82 @@
 [
   {
     "id": 1,
-    "name": "Eggs",
-    "items": 154,
-    "discount": 0,
-    "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/category/c-1.png"
+    "name": "Classic White T-Shirt",
+    "category": "T-Shirt",
+    "price": 799,
+    "rating": 4.8,
+    "brand": "Urban Style",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
   },
   {
     "id": 2,
-    "name": "Clothes",
-    "items": 320,
-    "discount": 30,
-    "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/category/c-4.png"
+    "name": "Black Oversized T-Shirt",
+    "category": "T-Shirt",
+    "price": 899,
+    "rating": 4.7,
+    "brand": "Fashion Hub",
+    "sizes": ["M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1"
   },
   {
     "id": 3,
-    "name": "Watches",
-    "items": 605,
-    "discount": 0,
-    "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/54_1.jpg"
+    "name": "Slim Fit Blue Jeans",
+    "category": "Jeans",
+    "price": 1499,
+    "rating": 4.9,
+    "brand": "Denim Pro",
+    "sizes": ["30", "32", "34", "36"],
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d"
   },
   {
     "id": 4,
-    "name": "Dresses",
-    "items": 548,
-    "discount": 15,
-    "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/category/c-1.png"
+    "name": "Casual Denim Jacket",
+    "category": "Jacket",
+    "price": 1999,
+    "rating": 4.6,
+    "brand": "Blue Wear",
+    "sizes": ["M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504"
   },
   {
     "id": 5,
-    "name": "Glasses",
-    "items": 400,
-    "discount": 10,
-    "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/category/c-4.png"
+    "name": "Formal White Shirt",
+    "category": "Shirt",
+    "price": 1199,
+    "rating": 4.8,
+    "brand": "Gentleman",
+    "sizes": ["M", "L", "XL", "XXL"],
+    "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157"
   },
   {
     "id": 6,
-    "name": "Cosmatics",
-    "items": 592,
-    "discount": 0,
-    "image": "https://maraviyainfotech.com/projects/grabit-tailwind/grabit-tailwind/assets/img/product-images/54_1.jpg"
+    "name": "Premium Polo T-Shirt",
+    "category": "T-Shirt",
+    "price": 999,
+    "rating": 4.7,
+    "brand": "Polo Club",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820"
+  },
+  {
+    "id": 7,
+    "name": "Men's Hoodie",
+    "category": "Hoodie",
+    "price": 1799,
+    "rating": 4.9,
+    "brand": "Winter Wear",
+    "sizes": ["M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7"
+  },
+  {
+    "id": 8,
+    "name": "Cargo Pants",
+    "category": "Pants",
+    "price": 1399,
+    "rating": 4.5,
+    "brand": "Street Style",
+    "sizes": ["30", "32", "34", "36"],
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a"
   }
 ]

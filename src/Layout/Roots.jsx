@@ -12,7 +12,7 @@ const Roots = () => {
       <div>
           <Navbar />
       <Outlet />
-      {/* <Products /> */}
+      <Products />
       <PopularProducts/>
     <Offer/>
           <div>footer</div>
