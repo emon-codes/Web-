@@ -1,14 +1,5 @@
 [
-  {
-    "id": 1,
-    "name": "Classic White T-Shirt",
-    "category": "T-Shirt",
-    "price": 799,
-    "rating": 4.8,
-    "brand": "Urban Style",
-    "sizes": ["S", "M", "L", "XL"],
-    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
-  },
+
   {
     "id": 2,
     "name": "Black Oversized T-Shirt",
@@ -19,16 +10,7 @@
     "sizes": ["M", "L", "XL"],
     "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1"
   },
-  {
-    "id": 3,
-    "name": "Slim Fit Blue Jeans",
-    "category": "Jeans",
-    "price": 1499,
-    "rating": 4.9,
-    "brand": "Denim Pro",
-    "sizes": ["30", "32", "34", "36"],
-    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d"
-  },
+
   {
     "id": 4,
     "name": "Casual Denim Jacket",
