@@ -14,7 +14,9 @@ const PopularProducts = () => {
           ></SectionHeading>
         </div>
         <div className="flex flex-row gap-6">
-          {products.map((product) => (<span>{ product.name }</span>) )}
+          {products
+      
+            .map((product) => (<span>{product.name}</span>))}
 
         </div>
       </div>

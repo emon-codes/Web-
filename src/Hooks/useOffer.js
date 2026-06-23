@@ -1,17 +1,15 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react";
 
 const useOffer = () => {
-    const [offerpost, setOfferPost] = useState([])
-    useEffect(() => {
-        
-        fetch("offer.json")
-            .then((res) => res.json())
-        .then((data) => setOfferPost(data))
+  const [offerpost, setOfferPost] = useState([]);
+  useEffect(() => {
+    fetch("offer.json")
+      .then((res) => res.json())
+      .then((data) => setOfferPost(data));
+  }, []);
+  return {
+    offerpost,
+  };
+};
 
-    },[])
-    return {
-      offerpost
-  }
-}
-
-export default useOffer
+export default useOffer;
