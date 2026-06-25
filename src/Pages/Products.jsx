@@ -18,7 +18,7 @@ const Products = () => {
         {products.slice(0, 4).map((product) => (
           <div
             key={product.id}
-            className="w-72 bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+            className="w-72 bg-[#1D232A] rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
           >
             {/* Image */}
             <div className="relative overflow-hidden">
@@ -34,8 +34,8 @@ const Products = () => {
               </span>
 
               {/* Wishlist */}
-              <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow-md hover:bg-red-500 hover:text-white transition-all duration-300">
-                <IoHeartOutline size={20} />
+              <button className="absolute top-3 right-3 bg-emerald-600 p-2 rounded-full shadow-md hover:bg-red-500 hover:text-white transition-all duration-300">
+                <IoHeartOutline size={30} />
               </button>
             </div>
 
