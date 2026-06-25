@@ -67,7 +67,7 @@ const Products = () => {
                 </span>
 
                 <span className="text-gray-400 line-through">
-                  ৳ {product.price + 500}
+                  ৳ {product.price + 200}
                 </span>
               </div>
 
