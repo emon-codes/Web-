@@ -63,11 +63,11 @@ const Products = () => {
               {/* Price */}
               <div className="flex items-center gap-3 mt-4">
                 <span className="text-2xl font-bold text-green-600">
-                  ৳ {product.price}
+                  {product.price}
                 </span>
 
                 <span className="text-gray-400 line-through">
-                  ৳ {product.price + 200}
+                  {product.price + 200}
                 </span>
               </div>
 
