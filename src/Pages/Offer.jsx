@@ -2,10 +2,13 @@ import React from 'react'
 import useOffer from '../Hooks/useOffer'
 
 const Offer = () => {
-    const {offerpost} = useOffer()
+const {offerpost} = useOffer()
+
+
   return (
-      <div>
-          {offerpost.map((offer) => (<div>{ offer.name }</div>))}
+    <div>
+     { offerpost.map((offer) => (<h1> key={ Offer.id }</h1>) )}
+
 
 
 
